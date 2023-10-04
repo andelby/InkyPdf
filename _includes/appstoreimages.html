@@ -11,9 +11,6 @@ $(function() {
 
             // Set page title using the iOS app ID if it is not set manually in _config.yml
             var $pageTitle = "Inky PDF reader";
-            if ($.trim($($pageTitle).text()).length == 0) {
-                $($pageTitle).html(appInfo.trackName);
-            }
 
             // Set large app icon using the iOS app ID if it is not set manually in _config.yml
             var $appIconLarge = $(".appIconLarge");
