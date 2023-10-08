@@ -1,82 +1,60 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Inky - PDF Reader  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+                                    # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Inky - PDF Reader & Editor & Converte     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : Inky, the one-stop solution for all your PDF document needs. Read, edit, annotate with ink, organize with tags, merge, split, and convert files to PDF effortlessly. 
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
+your_name                                 : Andrea Del Bello                                
+your_link                                 :                     
+your_city                                 : Italy                               
+email_address                             : inkypdf@gmail.com     
 facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
-youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+instagram_username                        : andreadelbello
+github_username                           : andelby
 
 
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
-
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
+  - title                                 : PDF Reading Excellence
+    description                           : Enjoy smooth and seamless PDF reading with Inky. Whether it's a textbook, research paper, or an important document, our app ensures crisp and clear rendering, making your reading experience enjoyable and distraction-free.
     fontawesome_icon_name                 : star
+    
+  - title                                 : Ink Annotation & Notes
+    description                           : Unleash your creativity and productivity with ink annotation. Highlight important passages, underline key points, and add your thoughts directly to PDFs. Use notes for organized, accessible annotations that take your PDFs to the next level.
+    fontawesome_icon_name                 : magic
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Organize with Tags
+    description                           : Keep your documents in order with customizable tags. Quickly categorize and find your files, making it easy to stay organized, whether you're managing personal documents or work-related materials.
+    fontawesome_icon_name                 : adjust
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+  - title                                 : Merge & Split PDFs
+    description                           : Combine multiple PDFs into a single document with inky's merge feature. Need to divide a large PDF? No problem—splitting PDFs is just as simple.
     fontawesome_icon_name                 : link
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+  - title                                 : File Conversion Made Simple
+    description                           : inky is not just a PDF tool—it's also a versatile file converter. Convert various file formats, such as Excel, PowerPoint (PPTX), Word documents, and images like JPEG, PNG, and TIFF, into high-quality PDFs. No more worrying about compatibility issues!
+    fontawesome_icon_name                 : arrow-alt-circle-down
+  
+  - title                                 : Fluent Design Interface
+    description                           : Inky seamlessly incorporates the Fluent Design System, Microsoft's flagship design language for Windows 11. Enjoy a visually captivating experience with elements like Acrylic material, soft animations, and consistent iconography that adhere to Windows 11's design philosophy, providing a harmonious and immersive interaction with your operating system.
     fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
-
 
 # Theme Settings
 topbar_color                              : "#000000"
